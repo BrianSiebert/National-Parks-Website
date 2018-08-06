@@ -1,0 +1,146 @@
+body {
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
+body, header, nav {
+    margin: 0px;
+}
+
+.header img {
+	width: 100%;
+	height:250px;
+}
+header {
+    background-color: #0099CC;
+    color: white;
+    padding: 10px 10px;
+    
+}
+
+nav {
+    background-color: #8DC63F;
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 50px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav li {
+    list-style-type: none;
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    float: left;
+}
+
+nav li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+ section {
+    clear: both;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    vertical-align: top;
+    text-align: center;
+    min-height: 450px;
+    background-color: #FFF;
+    border-radius: 7px;
+} 
+div.parkDiv{
+	display: inline-block;
+	justify-content: start;
+	 border-style: solid;
+    border-width: medium;
+    border-color:#006400;
+}
+
+.parkTitle {
+	font-style: garamond;
+}
+
+div.detailsDescription {
+	font-size: 20px;
+}
+
+div.parkImage {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	padding: 1rem;
+	width: 500px;
+}
+
+
+div.parkImage img{
+	width: 100%;
+}
+
+div.parkDetails{
+	padding-top: 120px;
+}
+.parkName{
+	color: #1E90FF;
+}
+
+.detailsImage img{
+	width:100%;
+	height:500px;
+}
+
+.detailStats{
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.table {
+   margin: auto;
+   width: 80%; 
+   text-align: center;
+}
+
+div.parkResultDiv{
+	display: block;
+	justify-content: start;
+	border-style: solid;
+    border-width: medium;
+    border-color:#006400;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.todaysWeather img{
+width:20%;
+}
+
+.temp *{
+	text-align: bottom;
+}
+.fourDay *{
+	display: inline-block;
+	text-align: center;
+}
+
+.weatherInfo{
+	display:inline-block;
+	border-style: solid;
+	padding-right:100px;
+	padding-left:100px;
+}
+.weatherInfo img{
+	
+}
+
+
